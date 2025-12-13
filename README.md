@@ -17,31 +17,83 @@ Interface web para o sistema pessoal de organização familiar Caramello.
 
 ## Sobre
 
-Este repositório contém a interface web construída em React para o projeto Caramello, que tem como objetivo facilitar a organização da vida familiar em diferentes módulos.
+Este repositório contém a interface web construída em **React** e **Ionic** para o projeto Caramello. O objetivo é fornecer uma aplicação híbrida (Web e Mobile via Capacitor) que facilite a organização da vida familiar em diferentes módulos.
 
 ## Funcionalidades
 
-_Em construção..._
+- **Autenticação Simples**: Login de usuários.
+- **Home**: Visão geral (Dashboard).
+- _Em construção..._
 
 ## Instalação
 
-_Em construção..._
+### Pré-requisitos
+
+Certifique-se de ter o `nvm` (Node Version Manager) instalado em sua máquina.
+
+### Configurando o Ambiente
+
+1. **Instale e use a versão LTS do Node.js:**
+   ```bash
+   nvm install --lts
+   nvm use --lts
+   ```
+
+2. **Clone o repositório:**
+   ```bash
+   git clone https://github.com/henricos/caramello-frontend.git
+   cd caramello-frontend
+   ```
+
+3. **Instale as dependências:**
+   Isto irá ler o `package.json` e gerar o `package-lock.json`.
+   ```bash
+   npm install
+   ```
 
 ## Uso
 
-_Em construção..._
+### Rodar no Navegador (Desenvolvimento)
+Para iniciar o servidor de desenvolvimento local:
+```bash
+npm run dev
+```
+O app estará acessível em `http://localhost:5173`.
+
+### Rodar no Android (Emulador/Dispositivo)
+1. Gere o build de produção:
+   ```bash
+   npm run build
+   ```
+2. Sincronize com o projeto nativo Android:
+   ```bash
+   npm run cap:sync
+   ```
+3. Abra o Android Studio para rodar:
+   ```bash
+   npm run cap:run:android
+   ```
 
 ## Estrutura do Projeto
 
-_Em construção..._
+A estrutura segue o padrão React + Ionic:
+
+- `src/pages`: Componentes de Página (Telas).
+- `src/components`: Componentes reutilizáveis menores.
+- `src/services`: Serviços de comunicação com API.
+- `src/theme`: Variáveis globais de estilo (CSS).
 
 ## Tecnologias
 
-_Em construção..._
+- [React](https://reactjs.org/)
+- [Ionic Framework](https://ionicframework.com/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Capacitor](https://capacitorjs.com/) (para build nativo)
+- [Vite](https://vitejs.dev/) (Build tool)
 
 ## Contribuição
 
-Este projeto é pessoal, mas você pode usar esta seção para registrar como planejar melhorias, usar IA, etc.
+Este projeto é pessoal, mas aceitamos sugestões e melhorias. Consulte o arquivo `AGENTS.md` para diretrizes de desenvolvimento assistido por IA.
 
 ## Licença
 
