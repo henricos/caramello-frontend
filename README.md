@@ -27,25 +27,45 @@ Este repositório contém a interface web construída em **React** e **Ionic** p
 
 ## Instalação
 
-### Pré-requisitos
+Este projeto requer o **Node.js**. Recomendamos o uso do **nvm** (Node Version Manager) para gerenciar múltiplas versões do Node em paralelo sem afetar outras aplicações.
 
-Certifique-se de ter o `nvm` (Node Version Manager) instalado em sua máquina.
+### Verificação Inicial
 
-### Configurando o Ambiente
+1. **Teste a existência do nvm:**
+   ```bash
+   nvm --version
+   ```
 
-1. **Instale e use a versão LTS do Node.js:**
+2. **Teste a existência de um Node já instalado:**
+   ```bash
+   node -v
+   ```
+
+### Removendo Node do Sistema (Opcional)
+
+Se você tiver uma versão do Node instalada via gerenciador de pacotes do sistema (ex: `apt`) e quiser usar apenas o nvm, pode removê-la com:
+```bash
+sudo apt purge --auto-remove nodejs
+```
+
+### Instalando o nvm
+
+Caso não tenha o nvm instalado (o comando de versão falhou), consulte a [documentação oficial](https://github.com/nvm-sh/nvm?tab=readme-ov-file#installing-and-updating) ou use o comando abaixo (versão testada v0.40.3):
+
+```bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
+```
+
+> **Importante:** Após a instalação, feche e abra o terminal novamente. Em seguida, execute `nvm --version` para confirmar que tudo funcionou.
+
+### Configuração do Projeto
+
+1. **Instale a versão LTS do Node.js via nvm:**
    ```bash
    nvm install --lts
-   nvm use --lts
    ```
 
-2. **Clone o repositório:**
-   ```bash
-   git clone https://github.com/henricos/caramello-frontend.git
-   cd caramello-frontend
-   ```
-
-3. **Instale as dependências:**
+2. **Instale as dependências:**
    Isto irá ler o `package.json` e gerar o `package-lock.json`.
    ```bash
    npm install
