@@ -58,18 +58,19 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
 
 > **Importante:** Após a instalação, feche e abra o terminal novamente. Em seguida, execute `nvm --version` para confirmar que tudo funcionou.
 
-### Configuração do Projeto
+### Instalando o node usando o nvm
 
-1. **Instale a versão LTS do Node.js via nvm:**
-   ```bash
-   nvm install --lts
-   ```
+Instale a versão LTS do Node.js via nvm:
+```bash
+nvm install --lts
+```
 
-2. **Instale as dependências:**
-   Isto irá ler o `package.json` e gerar o `package-lock.json`.
-   ```bash
-   npm install
-   ```
+### Instalando dependências do projeto
+
+Instale as dependências (isto irá ler o `package.json` e gerar o `package-lock.json`):
+```bash
+npm install
+```
 
 ## Uso
 
