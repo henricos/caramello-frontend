@@ -7,6 +7,7 @@ Interface web para o sistema pessoal de organização familiar Caramello.
 - [Sobre](#sobre)
 - [Funcionalidades](#funcionalidades)
 - [Instalação](#instalação)
+- [Configuração](#configuração)
 - [Uso](#uso)
 - [Estrutura do Projeto](#estrutura-do-projeto)
 - [Tecnologias](#tecnologias)
@@ -71,6 +72,16 @@ Instale as dependências (isto irá ler o `package.json` e gerar o `package-lock
 ```bash
 npm install
 ```
+
+## Configuração
+
+O projeto utiliza variáveis de ambiente para configurações externas (como URL do backend).
+
+1. Crie um arquivo `.env` na raiz do projeto (use `.env.example` como base):
+   ```bash
+   cp .env.example .env
+   ```
+2. Edite o arquivo `.env` conforme necessário. Para desenvolvimento local padrão, o valor `VITE_API_BASE_URL=http://localhost:8000` já deve ser suficiente.
 
 ## Uso
 
