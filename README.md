@@ -1,4 +1,4 @@
-# Caramello Frontend Web
+# Caramello App
 
 Interface web para o sistema pessoal de organização familiar Caramello.
 
@@ -133,8 +133,8 @@ Este projeto está licenciado sob a licença MIT. Veja o arquivo [LICENSE](LICEN
 
 ## Links Relacionados
 
-- [Caramello Backend](https://github.com/henricos/caramello-backend)
-- [Caramello Frontend](https://github.com/henricos/caramello-frontend)
+- [Caramello API](https://github.com/henricos/caramello-api)
+- [Caramello App](https://github.com/henricos/caramello-app)
 
 ## Contato
 

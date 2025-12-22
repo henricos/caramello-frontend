@@ -1,6 +1,6 @@
 # Arquitetura do Projeto
 
-O Caramello Frontend segue uma arquitetura baseada em componentes, típica de projetos React, mas adaptada para o modelo híbrido do Ionic.
+O Caramello App segue uma arquitetura baseada em componentes, típica de projetos React, mas adaptada para o modelo híbrido do Ionic.
 
 ## Visão Geral
 

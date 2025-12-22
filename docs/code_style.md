@@ -1,6 +1,6 @@
 # Estilo de Código (Code Style)
 
-Este documento descreve as convenções de código para o projeto Caramello Frontend.
+Este documento descreve as convenções de código para o projeto Caramello App.
 
 ## Nomenclatura
 

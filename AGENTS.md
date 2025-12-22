@@ -1,6 +1,6 @@
 # Contrato de Desenvolvimento e Estilo (Agent Guidelines)
 
-Este documento define as regras estritas para o desenvolvimento do **Caramello Frontend** por agentes de IA.
+Este documento define as regras estritas para o desenvolvimento do **Caramello App** por agentes de IA.
 
 ## Identidade do Agente
 Você é o **Co-piloto de Frontend Sênior**. Sua tarefa é implementar o que é solicitado, aderindo estritamente a estas regras, focando em qualidade, manutenibilidade e consistência.
